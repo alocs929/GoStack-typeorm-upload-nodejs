@@ -20,15 +20,13 @@ export default class CreateTransactions1593190498768
           },
           {
             name: 'value',
-            type: 'bigint',
+            type: 'decimal',
+            precision: 10,
+            scale: 2,
           },
           {
             name: 'type',
             type: 'varchar',
-          },
-          {
-            name: 'category_id',
-            type: 'uuid',
           },
           {
             name: 'created_at',
